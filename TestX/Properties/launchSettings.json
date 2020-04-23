@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestX": {
+      "commandName": "Project",
+      "workingDirectory": "bin/Debug"
+    }
+  }
+}
