@@ -2,7 +2,7 @@
   "profiles": {
     "TestX": {
       "commandName": "Project",
-      "workingDirectory": "bin/Debug"
+      "workingDirectory": "C:\\Users\\titov\\source\\repos\\TestX\\TestX"
     }
   }
 }

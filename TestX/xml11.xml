@@ -1,0 +1,15 @@
+<xml>
+	<provider>1</provider>
+	<account>34-135623</account>
+	<counters>
+		<counter>
+			<type>1</type>
+			<value>234</value>
+		</counter>
+		<counter>
+			<type>2</type>
+			<value>121</value>
+		</counter>
+	</counters>
+	<pay_summ>323.01</pay_summ>
+</xml>
