@@ -24,8 +24,8 @@ namespace Test
                 switch (xnode.Name)
                 {
                     case "provider":
-
-                        company.Provider = Int32.Parse(xnode.InnerText);
+                        if (xnode.InnerText != "")
+                            company.Provider = Int32.Parse(xnode.InnerText);
                         break;
                     case "account":
 
@@ -53,7 +53,7 @@ namespace Test
                         }
                         break;
                     case "pay_summ":
-
+                        if(xnode.InnerText != "")
                         Math.Round(company.Pay_summ = Convert.ToDouble(xnode.InnerText.Replace(".", ",")), 2);
                         break;
                     default:
